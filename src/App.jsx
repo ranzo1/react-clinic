@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/header/Header'
-import Introduction from './components/Introduction/Introduction'
+import Home from './components/home/Home'
 import OurServices from './components/ourServices/OurServices'
 import About from './components/about/About'
 import OurDoctors from './components/ourDoctors/OurDoctors'
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Introduction />
+      <Home />
       <OurServices />
       <About />
       <OurDoctors />
