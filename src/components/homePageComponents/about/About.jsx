@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import { ReactComponent as AboutUsSvg } from '../../assets/about-img.svg'
+import { ReactComponent as AboutUsSvg } from '../../../assets/about-img.svg'
 
 const About = () => {
   return (

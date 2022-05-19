@@ -1,6 +1,6 @@
 import React from 'react'
 import './bookNow.css'
-import { ReactComponent as BookImg } from '../../assets/book-img.svg'
+import { ReactComponent as BookImg } from '../../../assets/book-img.svg'
 
 const BookNow = () => {
   return (

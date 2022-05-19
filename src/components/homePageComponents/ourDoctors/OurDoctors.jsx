@@ -1,12 +1,12 @@
 import React from 'react'
 import './ourDoctors.css'
-import placeholder from '../../assets/user-placeholder.png'
-import doctor1 from '../../assets/doc-1.jpg'
-import doctor2 from '../../assets/doc-2.jpg'
-import doctor3 from '../../assets/doc-3.jpg'
-import doctor4 from '../../assets/doc-4.jpg'
-import doctor5 from '../../assets/doc-5.jpg'
-import doctor6 from '../../assets/doc-6.jpg'
+import placeholder from '../../../assets/user-placeholder.png'
+import doctor1 from '../../../assets/doc-1.jpg'
+import doctor2 from '../../../assets/doc-2.jpg'
+import doctor3 from '../../../assets/doc-3.jpg'
+import doctor4 from '../../../assets/doc-4.jpg'
+import doctor5 from '../../../assets/doc-5.jpg'
+import doctor6 from '../../../assets/doc-6.jpg'
 
 const OurDoctors = () => {
   return (

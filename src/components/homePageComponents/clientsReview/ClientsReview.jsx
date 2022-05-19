@@ -1,6 +1,6 @@
 import React from 'react'
 import './clientsReview.css'
-import placeholderImg from '../../assets/user-placeholder.png'
+import placeholderImg from '../../../assets/user-placeholder.png'
 
 const ClientsReview = () => {
   return (

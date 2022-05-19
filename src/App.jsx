@@ -1,24 +1,10 @@
 import React from 'react'
-import Header from './components/header/Header'
-import Home from './components/home/Home'
-import OurServices from './components/ourServices/OurServices'
-import About from './components/about/About'
-import OurDoctors from './components/ourDoctors/OurDoctors'
-import BookNow from './components/bookNow/BookNow'
-import ClientsReview from './components/clientsReview/ClientsReview'
-import Footer from './components/footer/Footer'
+import HomePage from './pages/homePage/HomePage'
 
 const App = () => {
   return (
     <div>
-      <Header />
-      <Home />
-      <OurServices />
-      <About />
-      <OurDoctors />
-      <BookNow />
-      <ClientsReview />
-      <Footer />
+      <HomePage />
     </div>
   )
 }
