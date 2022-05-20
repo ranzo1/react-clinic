@@ -26,7 +26,7 @@ const About = () => {
             deserunt vel?
           </p>
           <a href="#" class="btn">
-            learn more <span class="fas fa-chevron-right"></span>{' '}
+            learn more <span class="fas fa-chevron-right"></span>
           </a>
         </div>
       </div>
