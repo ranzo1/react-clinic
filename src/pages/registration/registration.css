@@ -1,0 +1,24 @@
+.registration {
+    display: flex;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var( --background-gradient);
+    padding: 3.5rem;
+    height: 100vh;
+    width: 50%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}

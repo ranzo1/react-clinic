@@ -5,23 +5,23 @@ import placeholderImg from '../../../assets/user-placeholder.png'
 const ClientsReview = () => {
   return (
     <div>
-      <section class="review" id="review">
-        <h1 class="heading">
+      <section className="review" id="review">
+        <h1 className="heading">
           client's <span>review</span>
         </h1>
 
-        <div class="box-container">
-          <div class="box">
+        <div className="box-container">
+          <div className="box">
             <img src={placeholderImg} alt="" />
             <h3>john deo</h3>
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+            <div className="stars">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star-half-alt"></i>
             </div>
-            <p class="text">
+            <p className="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
               perspiciatis libero nobis rem numquam nesciunt alias sapiente
@@ -29,17 +29,17 @@ const ClientsReview = () => {
             </p>
           </div>
 
-          <div class="box">
+          <div className="box">
             <img src={placeholderImg} alt="" />
             <h3>john deo</h3>
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+            <div className="stars">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star-half-alt"></i>
             </div>
-            <p class="text">
+            <p className="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
               perspiciatis libero nobis rem numquam nesciunt alias sapiente
@@ -47,17 +47,17 @@ const ClientsReview = () => {
             </p>
           </div>
 
-          <div class="box">
+          <div className="box">
             <img src={placeholderImg} alt="" />
             <h3>john deo</h3>
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+            <div className="stars">
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star"></i>
+              <i className="fas fa-star-half-alt"></i>
             </div>
-            <p class="text">
+            <p className="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Laboriosam sapiente nihil aperiam? Repellat sequi nisi aliquid
               perspiciatis libero nobis rem numquam nesciunt alias sapiente

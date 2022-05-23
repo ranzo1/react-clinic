@@ -1,10 +1,14 @@
 import { useState } from 'react'
-import './registration.css'
+import { useNavigate } from 'react-router-dom'
+import './logInSignUp.css'
 import FormInput from './FormInput/FormInput'
+import axios from '../../api/axios'
 
 import React from 'react'
 
 const SignUp = () => {
+  const navigate = useNavigate()
+
   const [values, setValues] = useState({
     username: '',
     email: '',
@@ -12,6 +16,37 @@ const SignUp = () => {
     password: '',
     confirmPassword: '',
   })
+
+  const roles = [
+    {
+      id: 0,
+      label: 'Select Role',
+    },
+    {
+      id: 1,
+      label: 'Doctor',
+    },
+    {
+      id: 2,
+      label: 'Patient',
+    },
+  ]
+  const [pickedRole, setPickedRole] = useState()
+
+  const expertise = [
+    {
+      id: 0,
+      label: 'Select Expertise',
+    },
+    {
+      id: 1,
+      label: 'Generalist',
+    },
+    {
+      id: 2,
+      label: 'Specialist',
+    },
+  ]
 
   const inputs = [
     {
@@ -28,14 +63,18 @@ const SignUp = () => {
       name: 'firstName',
       type: 'text',
       placeholder: 'First Name',
+      errorMessage: 'Please insert Name!',
       label: 'First Name',
+      required: true,
     },
     {
       id: 3,
       name: 'lastName',
       type: 'text',
       placeholder: 'Last Name',
+      errorMessage: 'Please insert Last Name!',
       label: 'Last Name',
+      required: true,
     },
     {
       id: 4,
@@ -84,11 +123,17 @@ const SignUp = () => {
   //da se ne bi refreshovala cela stranica
   const handleSubmit = (e) => {
     e.preventDefault()
+    navigate('/')
   }
 
   const onChange = (e) => {
     setValues({ ...values, [e.target.name]: e.target.value })
   }
+
+  // const handleChange = (e) => {
+  //   setPickedRole(e.target.value)
+  //   console.log(`Option selected:`, pickedRole)
+  // }
 
   return (
     <div className="form-container">
@@ -102,6 +147,22 @@ const SignUp = () => {
             onChange={onChange}
           />
         ))}
+        <div className="dropdown-container">
+          <select>
+            {roles.map((option) => (
+              <option key={option.id} value={option.id}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+          <select className="dropDown">
+            {expertise.map((option) => (
+              <option key={option.id} value={option.id}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </div>
         <button className="btn">Submit</button>
       </form>
     </div>

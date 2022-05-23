@@ -5,18 +5,18 @@ import { ReactComponent as BookImg } from '../../../assets/book-img.svg'
 const BookNow = () => {
   return (
     <div>
-      <section class="book" id="book">
-        <div class="row">
-          <div class="image">
+      <section className="book" id="book">
+        <div className="row">
+          <div className="image">
             <BookImg />
           </div>
           <form action="">
             <h3>Check available appointments</h3>
-            <input type="text" placeholder="Doctor" class="box" />
-            <input type="number" placeholder="Priority" class="box" />
-            <input type="datetime-local" class="box" />
-            <input type="datetime-local" class="box" />
-            <input type="submit" value="book now" class="btn" />
+            <input type="text" placeholder="Doctor" className="box" />
+            <input type="number" placeholder="Priority" className="box" />
+            <input type="datetime-local" className="box" />
+            <input type="datetime-local" className="box" />
+            <input type="submit" value="book now" className="btn" />
           </form>
         </div>
       </section>

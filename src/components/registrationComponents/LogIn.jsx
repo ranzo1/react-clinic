@@ -1,8 +1,11 @@
 import { useState } from 'react'
-import './registration.css'
+import './logInSignUp.css'
 import FormInput from './FormInput/FormInput'
+import { useNavigate } from 'react-router-dom'
 
 const LogIn = () => {
+  const navigate = useNavigate()
+
   const [values, setValues] = useState({
     username: '',
     email: '',
@@ -26,8 +29,8 @@ const LogIn = () => {
       name: 'password',
       type: 'password',
       placeholder: 'Password',
+      errorMessage: 'Please enter valid password!',
       label: 'Password',
-      //pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
       required: true,
     },
   ]
@@ -35,6 +38,7 @@ const LogIn = () => {
   //da se ne bi refreshovala cela stranica
   const handleSubmit = (e) => {
     e.preventDefault()
+    navigate('/')
   }
 
   const onChange = (e) => {

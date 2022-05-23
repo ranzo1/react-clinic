@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './registration.css'
-import SignUp from './SignUp'
-import LogIn from './LogIn'
+import SignUp from '../../components/registrationComponents/SignUp'
+import LogIn from '../../components/registrationComponents/LogIn'
 import { ReactComponent as HomeImgSvg } from '../../assets/about-img.svg'
 
 const Registration = () => {

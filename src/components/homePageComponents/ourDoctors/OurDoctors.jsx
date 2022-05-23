@@ -11,81 +11,81 @@ import doctor6 from '../../../assets/doc-6.jpg'
 const OurDoctors = () => {
   return (
     <div>
-      <section class="doctors" id="doctors">
-        <h1 class="heading">
+      <section className="doctors" id="doctors">
+        <h1 className="heading">
           our <span>doctors</span>
         </h1>
 
-        <div class="box-container">
-          <div class="box">
+        <div className="box-container">
+          <div className="box">
             <img src={doctor1} alt="" />
             <h3>john deo</h3>
             <span>Specialist doctor</span>
-            <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+            <div className="share">
+              <a href="#" className="fab fa-facebook-f"></a>
+              <a href="#" className="fab fa-twitter"></a>
+              <a href="#" className="fab fa-instagram"></a>
+              <a href="#" className="fab fa-linkedin"></a>
             </div>
           </div>
 
-          <div class="box">
+          <div className="box">
             <img src={doctor2} alt="" placeholder={placeholder} />
             <h3>john deo</h3>
             <span>Generalist doctor</span>
-            <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+            <div className="share">
+              <a href="#" className="fab fa-facebook-f"></a>
+              <a href="#" className="fab fa-twitter"></a>
+              <a href="#" className="fab fa-instagram"></a>
+              <a href="#" className="fab fa-linkedin"></a>
             </div>
           </div>
 
-          <div class="box">
+          <div className="box">
             <img src={doctor3} alt="" />
             <h3>john deo</h3>
             <span>Generalist doctor</span>
-            <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+            <div className="share">
+              <a href="#" className="fab fa-facebook-f"></a>
+              <a href="#" className="fab fa-twitter"></a>
+              <a href="#" className="fab fa-instagram"></a>
+              <a href="#" className="fab fa-linkedin"></a>
             </div>
           </div>
 
-          <div class="box">
+          <div className="box">
             <img src={doctor4} alt="" />
             <h3>John Deo</h3>
             <span>Specialist doctor</span>
-            <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+            <div className="share">
+              <a href="#" className="fab fa-facebook-f"></a>
+              <a href="#" className="fab fa-twitter"></a>
+              <a href="#" className="fab fa-instagram"></a>
+              <a href="#" className="fab fa-linkedin"></a>
             </div>
           </div>
 
-          <div class="box">
+          <div className="box">
             <img src={doctor5} alt="" />
             <h3>john deo</h3>
             <span>Generalist doctor</span>
-            <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+            <div className="share">
+              <a href="#" className="fab fa-facebook-f"></a>
+              <a href="#" className="fab fa-twitter"></a>
+              <a href="#" className="fab fa-instagram"></a>
+              <a href="#" className="fab fa-linkedin"></a>
             </div>
           </div>
 
-          <div class="box">
+          <div className="box">
             <img src={doctor6} alt="" />
             <h3>john deo</h3>
             <span>Generalist doctor</span>
-            <div class="share">
-              <a href="#" class="fab fa-facebook-f"></a>
-              <a href="#" class="fab fa-twitter"></a>
-              <a href="#" class="fab fa-instagram"></a>
-              <a href="#" class="fab fa-linkedin"></a>
+            <div className="share">
+              <a href="#" className="fab fa-facebook-f"></a>
+              <a href="#" className="fab fa-twitter"></a>
+              <a href="#" className="fab fa-instagram"></a>
+              <a href="#" className="fab fa-linkedin"></a>
             </div>
           </div>
         </div>
