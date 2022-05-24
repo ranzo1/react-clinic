@@ -38,4 +38,7 @@
 
 .footer .credit span{
     color:var(--green);
+    display: inline;
+    font-size: 2rem;
+    font-weight: bold;
 }

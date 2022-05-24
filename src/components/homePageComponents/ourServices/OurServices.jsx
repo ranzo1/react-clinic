@@ -12,7 +12,7 @@ const OurServices = () => {
         <div className="box-container">
           <div className="box">
             <i className="fas fa-notes-medical"></i>
-            <h3>Book checkups</h3>
+            <h3>Book Checkups</h3>
             <p>Book your checkups with best medical experts fast and easy.</p>
           </div>
 
@@ -27,7 +27,7 @@ const OurServices = () => {
 
           <div className="box">
             <i className="fas fa-user-md"></i>
-            <h3>expert doctors</h3>
+            <h3>Expert Doctors</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
               omnis.
@@ -36,7 +36,7 @@ const OurServices = () => {
 
           <div className="box">
             <i className="fas fa-pills"></i>
-            <h3>medicines</h3>
+            <h3>Medicines</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
               omnis.
@@ -45,7 +45,7 @@ const OurServices = () => {
 
           <div className="box">
             <i className="fas fa-procedures"></i>
-            <h3>bed facility</h3>
+            <h3>Bed Facility</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
               omnis.
@@ -54,7 +54,7 @@ const OurServices = () => {
 
           <div className="box">
             <i className="fas fa-heartbeat"></i>
-            <h3>total care</h3>
+            <h3>Total Care</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad,
               omnis.

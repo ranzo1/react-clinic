@@ -16,7 +16,7 @@ const Header = () => {
         <a href="/#book" className="book-btn">
           Book
         </a>
-        <a href="#review">Review</a>
+        <a href="/#review">Review</a>
       </nav>
 
       <div id="menu-btn" className="fas fa-bars"></div>

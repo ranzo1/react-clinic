@@ -11,22 +11,7 @@
       margin-top: 12px;
   }
 
-  .heading{
-    text-align: center;
-    padding-bottom: 2rem;
-    text-shadow: var(--text-shadow);
-    text-transform: uppercase;
-    color:var(--black);
-    font-size: 4rem;
-    letter-spacing: .4rem;
-}
 
-.heading span{
-    font-size: 4rem;
-    display: inline;
-    text-transform: uppercase;
-    color:var(--green);
-}
 
   form{
       background-color: white;

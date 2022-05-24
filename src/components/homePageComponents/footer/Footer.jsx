@@ -8,48 +8,48 @@ const Footer = () => {
       <section className="footer">
         <div className="box-container">
           <div className="box">
-            <h3>quick links</h3>
-            <a href="#">
+            <h3>Quick links</h3>
+            <a href="/#home">
               <i className="fas fa-chevron-right"></i> home
             </a>
-            <a href="#">
+            <a href="/#services">
               <i className="fas fa-chevron-right"></i> services
             </a>
-            <a href="#">
+            <a href="/#about">
               <i className="fas fa-chevron-right"></i> about
             </a>
-            <a href="#">
+            <a href="/#doctors">
               <i className="fas fa-chevron-right"></i> doctors
             </a>
-            <a href="#">
+            <a href="/#book">
               <i className="fas fa-chevron-right"></i> book
             </a>
-            <a href="#">
+            <a href="/#review">
               <i className="fas fa-chevron-right"></i> review
             </a>
           </div>
 
           <div className="box">
-            <h3>our services</h3>
-            <a href="#">
+            <h3>Our Services</h3>
+            <a href="/#services">
               <i className="fas fa-chevron-right"></i> dental care
             </a>
-            <a href="#">
+            <a href="/#services">
               <i className="fas fa-chevron-right"></i> message therapy
             </a>
-            <a href="#">
+            <a href="/#services">
               <i className="fas fa-chevron-right"></i> cardioloty
             </a>
-            <a href="#">
+            <a href="/#services">
               <i className="fas fa-chevron-right"></i> diagnosis
             </a>
-            <a href="#">
+            <a href="/#services">
               <i className="fas fa-chevron-right"></i> ambulance service
             </a>
           </div>
 
           <div className="box">
-            <h3>contact info</h3>
+            <h3>Contact Info</h3>
             <a href="#">
               <i className="fas fa-phone"></i> +381-011-456-789
             </a>
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
 
           <div className="box">
-            <h3>follow us</h3>
+            <h3>Follow Us</h3>
             <a href="#">
               <i className="fab fa-facebook-f"></i> facebook
             </a>

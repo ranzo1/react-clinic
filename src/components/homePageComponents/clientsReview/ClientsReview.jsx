@@ -13,7 +13,7 @@ const ClientsReview = () => {
         <div className="box-container">
           <div className="box">
             <img src={placeholderImg} alt="" />
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -31,7 +31,7 @@ const ClientsReview = () => {
 
           <div className="box">
             <img src={placeholderImg} alt="" />
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -49,13 +49,12 @@ const ClientsReview = () => {
 
           <div className="box">
             <img src={placeholderImg} alt="" />
-            <h3>john deo</h3>
+            <h3>John Deo</h3>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
-              <i className="fas fa-star-half-alt"></i>
             </div>
             <p className="text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

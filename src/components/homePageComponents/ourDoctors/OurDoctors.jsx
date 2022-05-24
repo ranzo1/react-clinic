@@ -19,8 +19,8 @@ const OurDoctors = () => {
         <div className="box-container">
           <div className="box">
             <img src={doctor1} alt="" />
-            <h3>john deo</h3>
-            <span>Specialist doctor</span>
+            <h3>Nada Macura</h3>
+            <span className="expertise-span">Specialist doctor</span>
             <div className="share">
               <a href="#" className="fab fa-facebook-f"></a>
               <a href="#" className="fab fa-twitter"></a>
@@ -31,8 +31,8 @@ const OurDoctors = () => {
 
           <div className="box">
             <img src={doctor2} alt="" placeholder={placeholder} />
-            <h3>john deo</h3>
-            <span>Generalist doctor</span>
+            <h3>Branimir Nestorovic</h3>
+            <span className="expertise-span">Generalist doctor</span>
             <div className="share">
               <a href="#" className="fab fa-facebook-f"></a>
               <a href="#" className="fab fa-twitter"></a>
@@ -43,8 +43,8 @@ const OurDoctors = () => {
 
           <div className="box">
             <img src={doctor3} alt="" />
-            <h3>john deo</h3>
-            <span>Generalist doctor</span>
+            <h3>Zeljko Mitrovic</h3>
+            <span className="expertise-span">Generalist doctor</span>
             <div className="share">
               <a href="#" className="fab fa-facebook-f"></a>
               <a href="#" className="fab fa-twitter"></a>
@@ -56,7 +56,7 @@ const OurDoctors = () => {
           <div className="box">
             <img src={doctor4} alt="" />
             <h3>John Deo</h3>
-            <span>Specialist doctor</span>
+            <span className="expertise-span">Specialist doctor</span>
             <div className="share">
               <a href="#" className="fab fa-facebook-f"></a>
               <a href="#" className="fab fa-twitter"></a>
@@ -67,8 +67,8 @@ const OurDoctors = () => {
 
           <div className="box">
             <img src={doctor5} alt="" />
-            <h3>john deo</h3>
-            <span>Generalist doctor</span>
+            <h3>Ryan Target</h3>
+            <span className="expertise-span">Generalist doctor</span>
             <div className="share">
               <a href="#" className="fab fa-facebook-f"></a>
               <a href="#" className="fab fa-twitter"></a>
@@ -79,8 +79,8 @@ const OurDoctors = () => {
 
           <div className="box">
             <img src={doctor6} alt="" />
-            <h3>john deo</h3>
-            <span>Generalist doctor</span>
+            <h3>Thomas Muller</h3>
+            <span className="expertise-span">Generalist doctor</span>
             <div className="share">
               <a href="#" className="fab fa-facebook-f"></a>
               <a href="#" className="fab fa-twitter"></a>

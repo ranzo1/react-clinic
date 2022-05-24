@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <div className="content">
-          <h3>we take care of your healthy life</h3>
+          <h3>We Take Care of Your Healthy Life</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
             ducimus, quod ex cupiditate ullam in assumenda maiores et culpa odit
@@ -26,7 +26,7 @@ const About = () => {
             deserunt vel?
           </p>
           <a href="#" className="btn">
-            learn more <span className="fas fa-chevron-right"></span>
+            Learn more <span className="fas fa-chevron-right"></span>
           </a>
         </div>
       </div>
