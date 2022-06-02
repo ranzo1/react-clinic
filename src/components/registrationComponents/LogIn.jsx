@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from 'react'
 import './logInSignUp.css'
 import FormInput from './FormInput/FormInput'

@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState, useEffect } from 'react'
 import './registration.css'
 import SignUp from '../../components/registrationComponents/SignUp'

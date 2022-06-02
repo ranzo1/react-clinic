@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 import './checkups.css'
 
 const CheckUps = () => {
@@ -50,24 +51,38 @@ const CheckUps = () => {
     },
   ]
 
+  const [title, setTitle] = useState({
+    greenText: 'Available',
+    text: 'Check ups',
+  })
+
+  // const changeTitleOnClick = () => {
+  //   setIsSignUpForm((prevIsSignUpForm) => !prevIsSignUpForm)
+  // }
+
   return (
-    <div className="grid-container">
-      {checkUps.map((checkUp) => (
-        <form action="">
-          <h3>{checkUp.title}</h3>
-          <input
-            disabled={true}
-            type="number"
-            placeholder={checkUp.doctor}
-            className="box"
-          />
-          <input disabled={true} type="datetime-local" className="box" />
-          <input disabled={true} type="datetime-local" className="box" />
-          <input disabled={true} type="datetime-local" className="box" />
-          <input type="submit" value="Book Now" className="btn" />
-        </form>
-      ))}
-    </div>
+    <>
+      <h5 className="heading-checkup">
+        <span>{title.greenText}</span> {title.text}
+      </h5>
+      <div className="grid-container">
+        {checkUps.map((checkUp) => (
+          <form action="" key={checkUp.id}>
+            <h3>{checkUp.title}</h3>
+            <input
+              disabled={true}
+              type="number"
+              placeholder={checkUp.doctor}
+              className="box"
+            />
+            <input disabled={true} type="datetime-local" className="box" />
+            <input disabled={true} type="datetime-local" className="box" />
+            <input disabled={true} type="datetime-local" className="box" />
+            <input type="submit" value="Book Now" className="btn" />
+          </form>
+        ))}
+      </div>
+    </>
   )
 }
 

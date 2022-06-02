@@ -1,6 +1,5 @@
 import React from 'react'
 import './homePage.css'
-import Header from '../../components/homePageComponents/header/Header'
 import Home from '../../components/homePageComponents/home/Home'
 import OurServices from '../../components/homePageComponents/ourServices/OurServices'
 import About from '../../components/homePageComponents/about/About'
@@ -12,7 +11,6 @@ import Footer from '../../components/homePageComponents/footer/Footer'
 const HomePage = () => {
   return (
     <div>
-      <Header />
       <Home />
       <OurServices />
       <About />
